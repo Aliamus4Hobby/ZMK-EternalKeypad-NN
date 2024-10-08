@@ -13,6 +13,8 @@
 #define ARROW       1
 #define FUNC        2
 
+&soft_off { hold-time-ms = <1>; };
+
 / {
     chosen {
         zmk,kscan = &kscan0;
