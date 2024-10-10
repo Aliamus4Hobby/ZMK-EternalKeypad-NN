@@ -30,7 +30,7 @@
          &kp TAB       &kp Q          &kp W     &kp E   &kp R      &kp T   &kp Y
 &kp F22  &kp CAPSLOCK  &kp A          &kp S     &kp D   &kp F      &kp G   &kp H
 &kp F23  &kp LSHFT     &kp Z          &kp X     &kp C   &kp V      &kp B   &kp N
-&kp F24  &kp LCTRL     &kp LEFT_META  &kp LALT          &kp SPACE          &lt 1 RIGHT_CONTROL
+&kp F24  &kp LCTRL     &kp LEFT_META  &kp LALT          &kp SPACE          &mo 1
             >;
         };
 
