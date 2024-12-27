@@ -27,18 +27,18 @@
          &kp ESC       &kp N1         &kp N2    &kp N3  &kp N4     &kp N5  &kp N6
          &kp TAB       &kp Q          &kp W     &kp E   &kp R      &kp T   &kp Y
 &kp F22  &kp CAPSLOCK  &kp A          &kp S     &kp D   &kp F      &kp G   &kp H
-&kp F23  &kp LSHFT     &kp Z          &kp X     &kp C   &kp V      &kp B   &kp N
+&kp F23  &kp LSHFT     &kp LESS_THAN  &kp Z     &kp X   &kp C      &kp V   &kp B
 &kp F24  &kp LCTRL     &kp LEFT_META  &kp LALT          &kp SPACE          &mo 1
             >;
         };
 
         Sys+BT-Ctrl {
             bindings = <
-                &trans        &soft_off  &trans  &trans  &trans  &trans  &sys_reset
-                &out OUT_USB  &trans     &trans  &trans  &trans  &trans  &bootloader
-&bt BT_CLR_ALL  &out OUT_BLE  &trans     &trans  &trans  &trans  &trans  &trans
-&bt BT_SEL 0    &trans        &trans     &trans  &trans  &trans  &trans  &trans
-&bt BT_SEL 1    &trans        &trans     &trans          &trans          &trans
+                &trans        &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6
+                &sys_reset    &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR_ALL  &bootloader   &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_SEL 0    &out OUT_USB  &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_SEL 1    &out OUT_BLE  &trans  &trans          &trans          &trans
             >;
         };
     };
