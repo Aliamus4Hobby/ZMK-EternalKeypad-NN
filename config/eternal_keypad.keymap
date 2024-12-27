@@ -27,7 +27,7 @@
          &kp ESC       &kp N1         &kp N2    &kp N3  &kp N4     &kp N5  &kp N6
          &kp TAB       &kp Q          &kp W     &kp E   &kp R      &kp T   &kp Y
 &kp F22  &kp CAPSLOCK  &kp A          &kp S     &kp D   &kp F      &kp G   &kp H
-&kp F23  &kp LSHFT     &kp LESS_THAN  &kp Z     &kp X   &kp C      &kp V   &kp B
+&kp F23  &kp LSHFT     &kp NUBS       &kp Z     &kp X   &kp C      &kp V   &kp B
 &kp F24  &kp LCTRL     &kp LEFT_META  &kp LALT          &kp SPACE          &mo 1
             >;
         };
